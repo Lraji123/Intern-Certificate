@@ -1,0 +1,82 @@
+
+
+@page{
+  size:A4 landscape;
+  margin:10mm;
+ }
+ body{
+  margin:0;
+  padding:0;
+  border:1mm solid hsl(214, 87%, 41%);
+  height:188mm;
+ }
+
+ .border-pattern{
+  position:absolute;
+  left:4mm;
+  top:-6mm;
+  height:200mm;
+  width:267mm;
+  border:1mm solid  hsl(214, 87%, 41%);
+  height:188mm;;
+  /* http://www.heropatterns.com/ */
+  background-color: hwb(177 63% 5%);
+  background-color: #9143e8;
+  background-color: #8f90e6;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23bbe4e3' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+  /*background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2358e8dd' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+   */
+  }
+
+ .content{
+  position:absolute;
+  left:10mm;
+  top:10mm;
+  height:178mm;
+  width:245mm;
+  border:1mm solid hsl(214, 87%, 41%);
+  background:hwb(177 63% 5%);;
+ }
+
+ .inner-content{
+  border:1mm solid   hsl(214, 87%, 41%);
+  margin:4mm;
+  padding:10mm;
+  height:148mm;
+  text-align:center;
+ }
+ h1{
+  text-transform:uppercase;
+  font-size:48pt;
+  margin-bottom:0;
+ }
+ h2{
+  font-size:24pt;
+  margin-top:0;
+  padding-bottom:1mm;
+  display:inline-block;
+  border-bottom:1mm solid hsl(214, 87%, 41%);
+ }
+ h2::after{
+  content:"";
+  display:block;
+  padding-bottom:4mm;
+  border-bottom:1mm solid hsl(214, 87%, 41%)B;
+ }
+ h3{
+  font-size:20pt;
+  margin-bottom:0;
+  margin-top:10mm;
+ }
+ p{
+  font-size:16pt;
+ }
+ *.logo{
+  width:40mm;
+  height:40mm;
+  position:absolute;
+  right:10mm;
+  bottom:10mm;
+  
+  }
